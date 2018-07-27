@@ -1,0 +1,76 @@
+<asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="kjdkjs" runtimeVersion="10.3.0.0">
+  <implementation.generic type="ispackage" />
+  <buildInfo name="BuildVersion" value="10.3.0.1532720483239" />
+  <buildInfo name="BuildTimestamp" value="2018-07-28T01:11:23" />
+  <buildInfo name="MinimumTargetRuntimeVersion" value="10.3.0.0" />
+  <property name="activatePkgOnInstall" displayName="Activate Package On Install">
+    <value>true</value>
+  </property>
+  <property name="archivePkgOnInstall" displayName="Archive Package On Install">
+    <value>true</value>
+  </property>
+  <property name="compilePackage" displayName="Compile Package On Install">
+    <value>true</value>
+  </property>
+  <property name="fragPackage" displayName="Fragment Package On Install">
+    <value>true</value>
+  </property>
+  <property name="clearACLs" displayName="Delete ACLs for the assets from the target Integration Server">
+    <value>false</value>
+  </property>
+  <property name="disallowActivePackageInstall" displayName="disallowActivePackageInstall">
+    <value>false</value>
+  </property>
+  <property name="packageExecutionCheck" displayName="packageExecutionCheck">
+    <value>0</value>
+  </property>
+  <property name="suspendTriggersDuringDeploy" displayName="Suspend Triggers During Deployment">
+    <value>false</value>
+  </property>
+  <property name="syncDocTypesToBroker" displayName="Synchronize Document Types To Broker During Deployment">
+    <value>true</value>
+  </property>
+  <asset name="ISPackage.kjdkjs" displayName="kjdkjs">
+    <implementation.generic type="ispackage" />
+  </asset>
+  <asset name="slkd.new_flowservice" displayName="slkd:new_flowservice">
+    <implementation.generic type="isflowservice" />
+  </asset>
+  <asset name="kjdkjs.code" displayName="code">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.code.classes" displayName="code/classes">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.code.jars" displayName="code/jars">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.code.source" displayName="code/source">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.config" displayName="config">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.config.aclmap_pkg.cnf" displayName="config/aclmap_pkg.cnf">
+    <implementation.generic type="isfile" />
+  </asset>
+  <asset name="kjdkjs.doc" displayName="doc">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.lib" displayName="lib">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.pub" displayName="pub">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.resources" displayName="resources">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.templates" displayName="templates">
+    <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="kjdkjs.web" displayName="web">
+    <implementation.generic type="isfolder" />
+  </asset>
+</asset_composite>
+
